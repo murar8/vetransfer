@@ -1,0 +1,14 @@
+{
+  "name": "VeChain",
+  "image": "mcr.microsoft.com/devcontainers/base:jammy",
+
+  "customizations": {
+    "vscode": {
+      "extensions": ["NomicFoundation.hardhat-solidity"]
+    }
+  },
+
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {}
+  }
+}
